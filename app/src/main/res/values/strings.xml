@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AOPTestFrame</string>
+
+    <string name="action_package_name">com.hhcx.aoptestframe.action.</string>
+</resources>

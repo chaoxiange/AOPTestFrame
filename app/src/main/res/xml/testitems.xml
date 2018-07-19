@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DriverTest>
+
+    <MainItem
+        command="TouchScreenAction"
+        isActivity="true"
+        name_CN="触摸屏测试"
+        name_EN="TouchScreen"
+        packageName="com.hhcx.aoptestframe.action.TouchScreenAction" >
+    </MainItem>
+
+    <MainItem
+        command="DemoAction"
+        isActivity="false"
+        name_CN="国密芯片测试"
+        name_EN="DemoAction"
+        name_RU="DemoAction">
+        <SubItem
+            command="autoTest"
+            name_CN="自动测试"
+            name_EN="AutoTest"
+            needTest="true" />
+    </MainItem>
+</DriverTest>
